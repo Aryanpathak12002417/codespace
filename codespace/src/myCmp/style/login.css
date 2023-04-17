@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.login{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    min-height:80vh;
+}
+.login-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.login-image{
+    transition: all;
+}
+.login-image:hover{
+    transform: matrix(0,0,1,1);
+}
+.lcard{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    min-width: 50%;
+    max-width: 50%;
+    
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.login-photo{
+    overflow: hidden;
+}
+.login-photo>img{
+    position: relative;
+    right: 15px;
+    width: 100%;
+}
+.login-details>h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+.login-details{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-details>form>input{
+    display: block;
+    border: none;
+    margin: 15px 0px;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgba(106, 106, 240, 0.735);
+    border-radius: 1px;
+    width: 70%;
+}
+.login-details>form>button{
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    background-color: rgba(106, 106, 240, 0.735);
+    margin-top: 10px;
+}
+

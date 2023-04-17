@@ -1,0 +1,18 @@
+.btn-join>img{
+    width: 30px; 
+    margin-left: 10px;   
+}
+.btn-join:hover{
+    background-color: #ff4e4e;
+}.btn-join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f76a6a;
+    color: white;
+    padding: 11px 40px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}

@@ -1,0 +1,23 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10rem;
+}
+.features>h2{
+    font-size: 50px;
+    margin: 15px 0px;
+}
+.feature-card{
+    margin-top: 50px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color:black;
+    row-gap: 20px;
+    column-gap: 20px;
+}

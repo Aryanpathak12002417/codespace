@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.question{
+    padding: 20px 0px;
+}
+.question>h3{
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.question-desc{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.7;
+}
+
+.compiler{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 98vw;
+    height: 83vh;
+    max-height: 90%;
+    padding: 20px 15px;
+}
+.code-section{
+    background-color: #8e94e917;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    overflow-x: hidden;
+}
+.code-section-write::-webkit-scrollbar{
+    display: none;
+  }
+.code-test-output>h3{
+    font-family: 'Fira Mono', monospace;
+    font-size: 20px;
+    color: #f76a6a;
+}
+.question-image{
+    margin: 25px 0px; 
+    justify-content: center;
+    width: 100%;
+}
+.question-image>img{
+    width: 50%;
+}
+input{
+    border: none;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.code-test-output>p{
+    margin-top: 20px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 15px;
+}
+.code-section-write{
+    padding: 10px 3px;
+    height: 55%;
+    background-color: #b48fed42;
+    overflow-y: scroll;
+    font-family: 'Fira Mono', monospace;
+    border-radius: 2px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    scroll-padding-top: 2em;
+}
+.code-section-write:read-write:focus{
+    outline: none;
+}
+.code-test-output{
+    padding: 5px 5px;
+}
+.question{
+    margin: 0px 5px;
+}
+.question-desc{
+    max-width: 100%;
+}
+.code-test-btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 20px 0px;
+}
+.code-test-btn>button{
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-family: 'Fira Mono', monospace;
+    font-size: 15px;
+}
+
+.code-test-btn-submit{
+    background-color: #5ff980;;
+}
+.code-test-btn-run{
+    background-color: #f76a6a;
+}

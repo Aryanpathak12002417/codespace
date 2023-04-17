@@ -1,0 +1,16 @@
+.trustedBy2{
+    margin-top: 47vh;
+    background-color: #f76a6a;
+    width:100%;
+    color: white;
+}
+.downTrusted{
+    left: -2vw;
+    top: -10vh;
+    background-color: #f76a6a;
+    z-index: -1;
+    width: 102vw;
+    position: relative;
+    transform: rotate(7deg);
+    min-height: 30vh;
+}

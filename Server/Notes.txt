@@ -1,0 +1,10 @@
+userAuth ---> For verifiying user.
+
+Procedure of securing user cookie and information
+
+    What we can do is we can assure three layers for cookie we are passing
+        1. Encryption of cookie as well
+
+
+
+Where we are lefting is bycrpt compare method

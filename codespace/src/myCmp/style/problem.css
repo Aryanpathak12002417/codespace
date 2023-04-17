@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.problem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.problem-questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    min-width: 70%;
+}
+.problem-questions>h2{
+    margin:20px 0px;
+}
+.problem-questions>ul{
+    width: 100%;
+}
+.problem-questions>ul>li{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #8e9ce96b;
+    width: 100%;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+.problem-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #8e9ce96b;
+    width: 100%;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+.problem-question-difficulty{
+    display: flex;
+    justify-content: center;
+}
+.problem-quesyion-submission{
+    display: flex;
+    justify-content: center;
+}
